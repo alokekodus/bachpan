@@ -5,11 +5,15 @@
 
     .navbar{
         position: unset;
-        padding: 5px 0;
+        padding: 15px 0;
     }
 
     .navbar .navbar-brand img{
         width: 150px;
+    }
+
+    .font-size-16-responsive{
+        font-size: 14px;
     }
 
     #about{

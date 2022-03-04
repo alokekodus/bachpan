@@ -92,3 +92,13 @@ body{
     align-items: center;
     padding: 0 50px;
 }
+
+.footer{
+    font-size: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 600;
+}

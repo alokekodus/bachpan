@@ -5,6 +5,14 @@
     --secondary-color: #354B9C;
 }
 
+.text-main{
+    color: var(--main-color);
+}
+
+.font-size-16-responsive{
+    font-size: 16px;
+}
+
 .bg-white{
     background: #fff;
 }
