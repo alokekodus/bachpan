@@ -63,7 +63,7 @@ body{
     color: #fff;
 }
 
-#about, #admission{
+#about, #admission, #testimonial{
     margin-top: 100px;
 }
 
@@ -91,6 +91,12 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0 50px;
+}
+
+#testimonial .single .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .footer{
