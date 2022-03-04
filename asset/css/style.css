@@ -1,0 +1,35 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 0;
+}
+
+.navbar .navbar-brand img{
+    width: 200px;
+}
+
+.navbar .navbar-nav .nav-item{
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--main-color);
+}
+
+#carousel .carousel-inner .carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
