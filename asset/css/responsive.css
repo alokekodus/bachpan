@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) { 
+    .btn-main{
+        padding: 10px 30px;
+    }
+
     .navbar{
         position: unset;
         padding: 5px 0;
@@ -6,6 +10,33 @@
 
     .navbar .navbar-brand img{
         width: 150px;
+    }
+
+    #about{
+        margin-top: 20px;
+    }
+
+    #about .first .inner_left_1 img{
+        padding: 20px;
+        height: 250px;
+    }
+
+    #about .first .inner_left_2{
+        padding: 0 20px;
+    }
+
+    #about .second .inner_left_2 img{
+        padding: 20px;
+        height: 250px;
+    }
+    
+    #about .second .inner_left_1{
+        padding: 0 20px;
+    }
+
+    #admission img{
+        height: 500px;
+        object-fit: cover;
     }
  }
 

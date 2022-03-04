@@ -33,3 +33,62 @@ body{
     width: 100%;
     object-fit: cover;
 }
+
+#admission{
+    position: relative;
+}
+
+#admission::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.5);
+}
+
+#admission .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#admission img{
+    width: 100%;
+}
+
+#admission .container{
+    color: #fff;
+}
+
+#about, #admission{
+    margin-top: 100px;
+}
+
+#about .first .inner_left_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+#about .first .inner_left_1 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#about .second .inner_left_2 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#about .second .inner_left_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}

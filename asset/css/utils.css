@@ -8,3 +8,15 @@
 .bg-white{
     background: #fff;
 }
+
+.btn-main{
+    background: var(--main-color);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 60px;
+}
+
+.btn-main:hover{
+    background: var(--secondary-color);
+    color: #fff;
+}
