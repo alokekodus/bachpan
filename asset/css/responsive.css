@@ -50,6 +50,11 @@
     #aboutUsPage .left_block img{
         height: unset;
     }
+
+    #galleryPage .gallery .single img{
+        height: 200px;
+        object-fit: cover;
+    }
  }
 
 @media (max-width: 767.98px) { 

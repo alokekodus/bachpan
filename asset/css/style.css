@@ -24,6 +24,10 @@ body{
     font-weight: 600;
 }
 
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: var(--main-color);
+}
+
 .navbar .navbar-nav .nav-item .nav-link:hover{
     color: var(--main-color);
 }
@@ -137,6 +141,32 @@ body{
     margin-top: 0;
 }
 
+/* -------------------------------------- Gallery ------------------------------------ */
+#galleryPage .gallery .single{
+    overflow: hidden;
+}
+#galleryPage .gallery .single img{
+    width: 100%;
+    height: 350px;
+    transition: 0.1s ease-in;
+}
+
+#galleryPage .gallery .single img:hover{
+    transform: scale(1.02);
+}
+
+/* --------------------------------------Admission ----------------------------------- */
+#contatcForm .form-control[type=text],
+#contatcForm .form-control[type=email]{
+    height: 50px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+#contatcForm textarea.form-control{
+    box-shadow: none;
+    border-radius: 0;
+}
 
 
 
