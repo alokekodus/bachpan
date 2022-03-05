@@ -115,6 +115,32 @@ body{
     border-radius: 50%;
 }
 
+/* -------------------------------------- About us ---------------------------------*/
+.pageHeader{
+    margin-top: 77px;
+    height: 40vh;
+    width: 100%;
+    background: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#aboutUsPage .left_block img{
+    width: 100%;
+    height: 600px;
+}
+
+#aboutUsPage #admission{
+    margin-top: 0;
+}
+
+
+
+
+/* -------------------------------------- Footer ------------------------------------- */
 .footer{
     font-size: 14px;
 }

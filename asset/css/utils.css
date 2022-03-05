@@ -11,8 +11,8 @@
 }
 
 .shadow-main:hover {
-    box-shadow: 0 20px 30px var(--shadow-color) !important;
-  }
+  box-shadow: 0 20px 30px var(--shadow-color) !important;
+}
 
 .text-main {
   color: var(--main-color);
@@ -38,8 +38,8 @@
 }
 
 .btn-main:active {
-    transform: translateY(5px);
-  }
+  transform: translateY(5px);
+}
 
 .btn-main.shadow-main:focus {
   box-shadow: 0 10px 20px var(--shadow-color);
@@ -48,4 +48,14 @@
 .btn-main:hover {
   background: var(--secondary-color);
   color: #fff;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object-fit-cover{
+  object-fit: cover;
 }
