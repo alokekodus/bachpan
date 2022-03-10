@@ -61,7 +61,7 @@
 }
 
 .separator-main{
-  height: 5px;
-  width: 90%;
+  height: 3px;
+  width: 40%;
   background: var(--main-color);
 }
