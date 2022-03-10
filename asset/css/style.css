@@ -161,6 +161,7 @@ body{
 
 /* --------------------------------------Admission ----------------------------------- */
 #contatcForm .form-control[type=text],
+#contatcForm .form-select,
 #contatcForm .form-control[type=email]{
     height: 50px;
     box-shadow: none;

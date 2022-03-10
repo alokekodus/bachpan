@@ -30,15 +30,21 @@ $(document).ready(function () {
   //   Form validation
   $("#contatcForm").validate({
     rules: {
-      name: "required",
+      admissionFor: "required",
+      parentsName: "required",
+      studentsName: "required",
       email: "required",
       phone: "required",
+      address: "required",
       message: "required",
     },
     messages: {
-      name: "Name field cannot be empty",
+      admissionFor: "Please select one option",
+      parentsName: "Parent's name field cannot be empty",
+      studentsName: "Student's name field cannot be empty",
       email: "Email field cannot be empty",
       phone: "Phone field cannot be empty",
+      address: "Address field cannot be empty",
       message: "Message field cannot be empty",
     },
     errorElement: "em",
