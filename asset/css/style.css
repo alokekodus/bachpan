@@ -180,3 +180,25 @@ body{
     color: var(--main-color);
     font-weight: 600;
 }
+
+/* -------------------------------------- Floating div -------------------------------- */
+.floating-div{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 0 10px 10px 0;
+    background: #111;
+    box-shadow: 10px 10px 10px rgba(17, 17, 17,0.3);
+}
+
+.floating-div .fa-brands{
+    font-size: 1.5rem;
+    color: #fff;
+}
