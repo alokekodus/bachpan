@@ -56,8 +56,29 @@
         object-fit: cover;
     }
 
+    #gallery img{
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    #gallery .gallery-item:not(:last-child){
+        padding-right: unset;
+    }
+
+    #gallery .gallery-item:nth-child(odd){
+        padding-right: 15px;
+    }
+
     .footer .centerBlock{
         padding-left: 10px;
+    }
+
+    .footer .leftBlock, .footer .centerBlock, .footer .rightBlock, .footer .mapBlock{
+        margin-bottom: 20px;
+    }
+
+    .bottomFooter .container{
+        text-align: center;
     }
  }
 

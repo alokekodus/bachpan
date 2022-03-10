@@ -109,6 +109,10 @@ body{
     transition: 0.2s ease-in;
 }
 
+#gallery .gallery-item:not(:last-child){
+    padding-right: 15px;
+}
+
 #gallery img:hover{
     box-shadow: 0 20px 30px var(--shadow-color);
 }
@@ -223,6 +227,11 @@ body{
 
 .footer .centerBlock{
     padding-left: 70px;
+}
+
+.footer .readMoreBtn{
+    color: var(--main-color);
+    font-size: 14px;
 }
 
 /* -------------------------------------- Floating div -------------------------------- */
