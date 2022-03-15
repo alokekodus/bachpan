@@ -47,7 +47,7 @@
         margin-top: unset;
     }
 
-    #aboutUsPage .left_block img{
+    #aboutUsPage .left_block img, #aboutUsPage .right_block img{
         height: unset;
     }
 

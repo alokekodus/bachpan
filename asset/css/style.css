@@ -141,6 +141,12 @@ body{
     height: 600px;
 }
 
+#aboutUsPage .right_block img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
 #aboutUsPage #admission{
     margin-top: 0;
 }
