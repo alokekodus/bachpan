@@ -67,7 +67,7 @@ body{
     color: #fff;
 }
 
-#about, #admission, #testimonial, #programs{
+#about, #admission, #testimonial, #programs, #features{
     margin-top: 100px;
 }
 
@@ -149,6 +149,21 @@ body{
 
 #aboutUsPage #admission{
     margin-top: 0;
+}
+
+/* -------------------------------------- Features ----------------------------------- */
+#features .single{
+    text-align: center;
+}
+
+#features .single img{
+    width: 150px;
+}
+
+#features .single .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
 }
 
 /* -------------------------------------- Programs ----------------------------------- */
@@ -275,7 +290,7 @@ body{
     padding: 15px 10px;
     border-radius: 0 10px 10px 0;
     background: var(--main-color);
-    box-shadow: 10px 10px 10px rgba(17, 17, 17,0.3);
+    box-shadow: 3px 3px 10px rgba(17, 17, 17,0.3);
 }
 
 .floating-div .fa-brands{
