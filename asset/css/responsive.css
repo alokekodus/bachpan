@@ -32,6 +32,7 @@
     #about .second .inner_left_2 img{
         padding: 20px;
         height: 250px;
+        margin-top: 50px;
     }
     
     #about .second .inner_left_1{
@@ -79,6 +80,14 @@
 
     .bottomFooter .container{
         text-align: center;
+    }
+
+    .floating-div{
+        padding: 10px 10px;
+    }
+
+    .floating-div .fa-brands{
+        font-size: 1rem;
     }
  }
 
