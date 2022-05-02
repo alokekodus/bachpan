@@ -65,9 +65,12 @@ $(document).ready(function () {
       $("#formSubmitBtn").text("Sending...");
       $("#formSubmitBtn").attr("disabled", true);
       var formData = {
-        name: $("#name").val(),
+        admission_for: $("#admissionFor").val(),
+        parents_name: $("#parentsName").val(),
+        students_name: $("#studentsName").val(),
         email: $("#email").val(),
         phone: $("#phone").val(),
+        address: $("#address").val(),
         message: $("#message").val(),
       };
 
